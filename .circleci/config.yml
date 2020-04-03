@@ -31,7 +31,7 @@ jobs:
       name: Testing application
       command: |
           go test \
-          github.com/${CIRCLE_iPROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
+          github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
 
    - deploy:
        command: |
